@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.title{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.title img{
+    padding: 0 20px;
+    width: 48px;
+    height: 48px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.menu li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info h3{
+    padding: 20px 5%;
+    color: rgb(32, 32, 32);
+}
+
+.info img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.footer{
+    width: 100wv;
+    padding: 20px;
+}
+
+.clips{
+    padding: 30px 0;
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 20px;
+}
+
+.clips video{
+    width: 360px;
+    height: 200px;
+    border: 7px solid gray;
+    object-fit: cover;
+}
+
+.clips h2{
+    width: 100vw;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/*CODIGO CSS PLATINOS*/
+
+.juegos{
+    display: flex;
+    height: auto;
+    padding: 30px 50px;
+}
